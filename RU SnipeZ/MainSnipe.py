@@ -32,7 +32,7 @@ async def on_ready():
 @bot.event
 async def on_member_join(member):
     # Customize your welcome message and embed here
-    welcome_channel = bot.get_channel(1188255481056219217)  # Replace with your actual welcome channel ID
+    welcome_channel = bot.get_channel("Channel ID")  # Replace with your actual welcome channel ID
 
     embed = discord.Embed(
         title=f'Welcome to the server, {member.name}!',
@@ -305,4 +305,4 @@ async def on_message(message):
 
 
 
-bot.run('MTE4ODM2MzU4OTc1NzcxMDM3Ng.GSjRNk.JljVl098cUB5NYzE3pYUo9XglBoY2AsOby2NSQ')
+bot.run('Bot Token Here')
