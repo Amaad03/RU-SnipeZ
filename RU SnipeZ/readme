@@ -1,0 +1,16 @@
+How to use this program:
+mainsnipe - main file that you will run in order for the the bot to be initialized on Discord
+dataStorage - storage system using JSON
+user_data - file that stores discord user ID along with their snipes
+
+school_course_files - contains csv of every single schools courses (single means that it only shows a single course name, multi means each and every section currently available with repeats of name of course )
+school_course_htmls - html code from webreg used to scrape the course FIELDS
+
+all_courses_combined - csv with alll multi csvs from school_course_files, bunched together
+
+singe_name_gen - used to create the single files
+multi_name_gen - used to create the multi files
+
+backup.py - backup of mainsnipe incase it gets busted
+
+manipulatingdata.py - going to be used to filter the csvs
